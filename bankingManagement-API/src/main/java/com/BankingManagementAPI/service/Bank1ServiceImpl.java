@@ -36,6 +36,6 @@ public class Bank1ServiceImpl implements Bank1Service{
         }
 
         log.info("Bank1ServiceImpl.getAllBanks: Successfully fetched bank details.");
-        return bank1DTO;
+        return bank1DTO;1
 
     }
