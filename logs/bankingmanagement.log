@@ -1,0 +1,28 @@
+2025-11-04T01:18:23.219+05:30  INFO 20040 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Starting BankingManagementApiApplication using Java 21.0.8 with PID 20040 (E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API\bankingManagement-API\build\classes\java\main started by priyanka in E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API)
+2025-11-04T01:18:23.236+05:30  INFO 20040 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : The following 1 profile is active: "prod"
+2025-11-04T01:18:26.296+05:30  INFO 20040 --- [BankingManagement-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9092 (http)
+2025-11-04T01:18:26.382+05:30  INFO 20040 --- [BankingManagement-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-04T01:18:26.382+05:30  INFO 20040 --- [BankingManagement-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-04T01:18:26.571+05:30  INFO 20040 --- [BankingManagement-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-04T01:18:26.571+05:30  INFO 20040 --- [BankingManagement-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3195 ms
+2025-11-04T01:18:28.507+05:30  INFO 20040 --- [BankingManagement-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-11-04T01:18:28.617+05:30  INFO 20040 --- [BankingManagement-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9092 (http) with context path '/'
+2025-11-04T01:18:28.638+05:30  INFO 20040 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Started BankingManagementApiApplication in 6.712 seconds (process running for 7.366)
+2025-11-04T01:18:28.758+05:30  INFO 20040 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Application started.
+2025-11-04T01:26:35.191+05:30  INFO 20040 --- [BankingManagement-api] [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-04T01:26:35.192+05:30  INFO 20040 --- [BankingManagement-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-04T01:26:35.196+05:30  INFO 20040 --- [BankingManagement-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-11-04T12:17:26.092+05:30  INFO 1296 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Starting BankingManagementApiApplication using Java 21.0.8 with PID 1296 (E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API\bankingManagement-API\build\classes\java\main started by priyanka in E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API)
+2025-11-04T12:17:26.099+05:30  INFO 1296 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : The following 1 profile is active: "prod"
+2025-11-04T12:17:29.554+05:30  INFO 1296 --- [BankingManagement-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9092 (http)
+2025-11-04T12:17:29.601+05:30  INFO 1296 --- [BankingManagement-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-04T12:17:29.601+05:30  INFO 1296 --- [BankingManagement-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-04T12:17:29.711+05:30  INFO 1296 --- [BankingManagement-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-04T12:17:29.711+05:30  INFO 1296 --- [BankingManagement-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3475 ms
+2025-11-04T12:17:31.377+05:30  INFO 1296 --- [BankingManagement-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-11-04T12:17:31.571+05:30  INFO 1296 --- [BankingManagement-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9092 (http) with context path '/'
+2025-11-04T12:17:31.600+05:30  INFO 1296 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Started BankingManagementApiApplication in 6.867 seconds (process running for 7.599)
+2025-11-04T12:17:31.801+05:30  INFO 1296 --- [BankingManagement-api] [main] c.B.b.BankingManagementApiApplication    : Application started.
+2025-11-04T19:21:55.885+05:30  INFO 1296 --- [BankingManagement-api] [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-04T19:21:55.887+05:30  INFO 1296 --- [BankingManagement-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-04T19:21:55.892+05:30  INFO 1296 --- [BankingManagement-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms

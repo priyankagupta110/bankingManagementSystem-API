@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/bankingManagement-API/src/main/java/com/BankingManagementAPI/bankingManagement_API/entity/Loan1.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/bankingManagement-API/src/main/java/com/BankingManagementAPI/bankingManagement_API/entity/Loan1.java" />
+              <option name="originalContent" value="package com.BankingManagementAPI.bankingManagement_API.entity;&#10;&#10;import jakarta.persistence.*;&#10;import lombok.Getter;&#10;import lombok.Setter;&#10;&#10;@Setter&#10;@Getter&#10;@Entity&#10;@Table(name=&quot;Loan1_TBL&quot;)&#10;public class Loan1 {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = &quot;loan1_id_seq&quot;)&#10;    @SequenceGenerator(name = &quot;loan1_id_seq&quot;, sequenceName = &quot;loan1_id_sequence&quot;, allocationSize = 1)&#10;    @Column(name=&quot;Loan_ID&quot;)&#10;    private Integer loanId; // changed to Integer&#10;&#10;    @Column(name=&quot;Loan_Type&quot;)&#10;    private String loanType;&#10;&#10;    @Column(name=&quot;Loan_Amount&quot;)&#10;    private int loanAmount;&#10;&#10;    @ManyToOne&#10;    @JoinColumn(name=&quot;Branch_ID&quot;)&#10;    private Branch1 branch1;&#10;&#10;    @ManyToOne&#10;    @JoinColumn(name = &quot;Cust_ID&quot;)&#10;    private Customer1 customer1;&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="package com.BankingManagementAPI.bankingManagement_API.entity;&#10;&#10;import jakarta.persistence.*;&#10;import lombok.Getter;&#10;import lombok.Setter;&#10;&#10;@Setter&#10;@Getter&#10;@Entity&#10;@Table(name=&quot;Loan1_TBL&quot;)&#10;public class Loan1 {&#10;&#10;    @Id&#10;    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = &quot;loan1_id_seq&quot;)&#10;    @SequenceGenerator(name = &quot;loan1_id_seq&quot;, sequenceName = &quot;loan1_id_sequence&quot;, allocationSize = 1)&#10;    @Column(name=&quot;Loan_ID&quot;)&#10;    private Integer loanId; // changed to Integer&#10;&#10;    @Column(name=&quot;Loan_Type&quot;)&#10;    private String loanType;&#10;&#10;    @Column(name=&quot;Loan_Amount&quot;)&#10;    private int loanAmount;&#10;&#10;    @ManyToOne&#10;    @JoinColumn(name=&quot;Branch_ID&quot;)&#10;    private Branch1 branch1;&#10;&#10;    @ManyToOne&#10;    @JoinColumn(name = &quot;Cust_ID&quot;)&#10;    private Customer1 customer1;&#10;&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

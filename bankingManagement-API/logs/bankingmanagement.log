@@ -1,0 +1,4 @@
+2025-11-03T01:46:27.453+05:30  INFO 3108 --- [bankingManagement-API] [Test worker] B.b.BankingManagementApiApplicationTests : Starting BankingManagementApiApplicationTests using Java 21.0.8 with PID 3108 (started by priyanka in E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API\bankingManagement-API)
+2025-11-03T01:46:27.461+05:30  INFO 3108 --- [bankingManagement-API] [Test worker] B.b.BankingManagementApiApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-03T01:46:31.909+05:30  INFO 3108 --- [bankingManagement-API] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-11-03T01:46:32.024+05:30  INFO 3108 --- [bankingManagement-API] [Test worker] B.b.BankingManagementApiApplicationTests : Started BankingManagementApiApplicationTests in 5.245 seconds (process running for 7.396)

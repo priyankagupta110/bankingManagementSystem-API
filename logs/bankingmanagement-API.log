@@ -1,0 +1,41 @@
+2025-11-08T10:28:27.524+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] c.B.b.BankingManagementApiApplication    : Starting BankingManagementApiApplication using Java 21.0.8 with PID 9148 (E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API\bankingManagement-API\build\classes\java\main started by priyanka in E:\Software\Projects\Intellij\PriyankaProject\bankingManagement-API)
+2025-11-08T10:28:27.540+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] c.B.b.BankingManagementApiApplication    : The following 1 profile is active: "prod"
+2025-11-08T10:28:27.645+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-08T10:28:27.645+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-08T10:28:30.232+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-08T10:28:30.376+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 5 JPA repository interfaces.
+2025-11-08T10:28:31.530+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9092 (http)
+2025-11-08T10:28:31.561+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-08T10:28:31.561+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-08T10:28:31.669+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-08T10:28:31.669+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4024 ms
+2025-11-08T10:28:32.341+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08T10:28:32.479+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-08T10:28:32.556+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-08T10:28:33.542+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-08T10:28:33.628+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-08T10:28:34.072+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@105feaf1
+2025-11-08T10:28:34.072+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-08T10:28:34.412+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-08T10:28:36.966+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08T10:28:37.241+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-08T10:28:38.376+05:30  WARN 9148 --- [BankingManagement-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-08T10:28:40.288+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-08T10:28:40.316+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-11-08T10:28:40.566+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9092 (http) with context path '/'
+2025-11-08T10:28:40.652+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] c.B.b.BankingManagementApiApplication    : Started BankingManagementApiApplication in 14.016 seconds (process running for 14.749)
+2025-11-08T10:28:40.895+05:30  INFO 9148 --- [BankingManagement-api] [restartedMain] c.B.b.BankingManagementApiApplication    : Application started.
+2025-11-08T14:19:47.308+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h56m36s687ms979µs400ns).
+2025-11-08T17:13:15.967+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m57s481ms448µs200ns).
+2025-11-08T17:40:41.223+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s701ms676µs).
+2025-11-08T18:07:53.333+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m11s761ms162µs400ns).
+2025-11-08T18:54:24.195+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m55s31ms378µs200ns).
+2025-11-08T21:35:48.499+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m23s474ms819µs500ns).
+2025-11-08T23:42:04.392+05:30  WARN 9148 --- [BankingManagement-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m8s710ms253µs800ns).
